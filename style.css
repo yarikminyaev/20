@@ -1,0 +1,82 @@
+.banner {
+	height: 520px;
+	
+	background-size: 100%;
+	padding-top: 180px;
+}
+.info {
+	height: 350px;
+	padding-top: 50px;
+}
+.photo {
+	height: 750px;
+	background-color: orange;
+	padding-top: 50px;
+}
+.menu {
+	height: 800px;
+	background-color: yellow;
+}
+.logo {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	transition: 0.3s;
+
+}
+body {
+	font-family: arial;
+}
+.h2_banner {
+	text-align: center;
+	font-size: 25px;
+	font-weight: normal;
+}
+.parent {
+	width: 1400px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#edeeef;
+	display: flex;
+	padding-top: 20px;
+}
+.block {
+	background-image: url(vegan.jpg);
+	width: 300px;
+	height: 300px;
+	margin-left: 100px;
+	text-align: center;
+	transition: 0.5s
+}
+.photo_block {
+	background-color: blue;
+	height: 320px;
+	width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	padding-top: 20px;
+}
+.block2 {
+	background-image: url(english.jpg);
+	background-size: 100% 100%;
+}
+.block3 {
+	background-image: url(sok.png);
+	background-size: 100%
+}
+.m-l{
+	margin-left: 20px;
+	height: 300px;
+}
+.m-l-2{
+	margin-left: 170px;
+	height: 300px;
+}
+.logo:hover{
+	transform: scale(1.05);
+}
+.block:hover{
+	transform: scale(1.05);
+}
